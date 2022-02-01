@@ -1,0 +1,17 @@
+body{
+    font-family: Helvetica;
+}
+
+.link-referencia {
+    background-color: yellow;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.link-referencia:hover {
+    text-decoration: underline;
+    color: #fff;
+}   
+
+

@@ -1,0 +1,109 @@
+body {
+  font-family: Helvetica;
+}
+h1 {
+  background-color: black;
+  color: red;
+}
+h2 {
+  background-color: aqua;
+  color: green;
+}
+p {
+  color: blue;
+}
+a {
+  background-color: yellow;
+  color: pink;
+}
+#contenedor-uno {
+  background-color: rgb(138, 43, 43);
+}
+#contenedor-dos {
+  background-color: brown;
+}
+.contenedor-principal {
+    background-color: violet;
+    padding: 30px;
+}
+.btn-ingresar{
+    background-color: rgb(14,139,255);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+/**se usas clases*/
+.btn-ingresar1{
+    font-size: 25px;
+}
+.contenedor-form {
+    border: 3px solid green;
+    text-align: center;
+}
+.contenedor-form {
+    padding: 20px;
+}
+.titulo-form{
+    color: green;
+    background-color: #fff;
+}
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+}
+.input-codigo{
+    width: 100px
+}
+.input-numero{
+    width: 275px;
+}
+.btn-crear-usuario{
+    background-color: orange  ;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 400px;
+}
+.btn-crear-usuario:hover{
+    background-color: greenyellow;
+}
+/*pseudoclase*/
+/* los elementos tienen propiedades internas por ejemplo el hover*/
+
+.btn-ingresar:hover{
+    background-color: #f01;
+    color: #000;
+    text-decoration: none;
+
+}
+
+div:hover{
+    background-color: #f01;
+}
+
+.contenedor-interno-form h1 {
+    border: 2px solid #000;
+}
+
+.contenedor-interno-form p :nth-child(2){
+    border: 2px solid #f01;
+}
+/*first-child */
+/* busca primero el elemento */
+/* <h1> </h1> ,etc */
+
+h1:first-child{
+    color:purple
+}
+input:first-of-type {
+    color: red;
+}
+h2:nth-child(4){
+    color: #000;
+}
+
+.contenendor-interno-form
